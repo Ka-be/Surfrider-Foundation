@@ -1,0 +1,37 @@
+// RESET 
+@import "sass/general/reset";
+
+// TOOLS
+@import "sass/tools/variables";
+@import "sass/tools/mixins";
+
+// GENERAL
+@import "sass/general/body";
+
+// LAYOUTS
+@import "sass/layout/main";
+@import "sass/layout/events";
+@import "sass/layout/contact";
+
+// COMPONENTS
+@import "sass/components/navbar";
+@import "sass/components/header";
+
+// CUSTOM
+
+.values{
+    @include light-section;
+}
+
+.actions{
+    @include blue-section;
+}
+
+.news{
+    @include light-section;
+}
+
+.helpus{
+    @include blue-section;
+}
+

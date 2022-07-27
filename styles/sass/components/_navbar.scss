@@ -1,0 +1,18 @@
+nav{
+    background: transparent;
+    color: $gray;
+    height: 90px;
+    width: 100vw;
+    margin-top: 20px;
+
+    @include flex-space_between;
+}
+
+    .logo{
+        height: 90px;
+        width: auto;
+    }
+
+    .menu{
+        margin-right: $offset;
+    }
