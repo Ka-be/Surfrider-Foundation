@@ -50,73 +50,73 @@ input {
 
 @-webkit-keyframes we_are {
   0% {
-    content: "We are";
+    content: "We are 🇬🇧";
   }
   10% {
-    content: "Nous sommes";
+    content: "Nous sommes 🇫🇷";
   }
   20% {
-    content: "Wir sind";
+    content: "Wir sind 🇩🇪";
   }
   30% {
-    content: "Somos";
+    content: "Somos 🇪🇸";
   }
   40% {
-    content: "είμαστε";
+    content: "είμαστε 🇬🇷";
   }
   50% {
-    content: "Siamo";
+    content: "Siamo 🇮🇹";
   }
   60% {
-    content: "We zijn";
+    content: "We zijn 🇱🇺";
   }
   70% {
-    content: "Vi er";
+    content: "Vi er 🇫🇮";
   }
   80% {
-    content: "Estamos";
+    content: "Estamos 🇵🇹";
   }
   90% {
-    content: "Mi smo dobro";
+    content: "Mi smo dobro 🇭🇷";
   }
   100% {
-    content: "Vi mår bra";
+    content: "Vi mår bra 🇸🇪";
   }
 }
 
 @keyframes we_are {
   0% {
-    content: "We are";
+    content: "We are 🇬🇧";
   }
   10% {
-    content: "Nous sommes";
+    content: "Nous sommes 🇫🇷";
   }
   20% {
-    content: "Wir sind";
+    content: "Wir sind 🇩🇪";
   }
   30% {
-    content: "Somos";
+    content: "Somos 🇪🇸";
   }
   40% {
-    content: "είμαστε";
+    content: "είμαστε 🇬🇷";
   }
   50% {
-    content: "Siamo";
+    content: "Siamo 🇮🇹";
   }
   60% {
-    content: "We zijn";
+    content: "We zijn 🇱🇺";
   }
   70% {
-    content: "Vi er";
+    content: "Vi er 🇫🇮";
   }
   80% {
-    content: "Estamos";
+    content: "Estamos 🇵🇹";
   }
   90% {
-    content: "Mi smo dobro";
+    content: "Mi smo dobro 🇭🇷";
   }
   100% {
-    content: "Vi mår bra";
+    content: "Vi mår bra 🇸🇪";
   }
 }
 body {
