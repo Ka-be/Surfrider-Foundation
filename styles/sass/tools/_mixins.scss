@@ -19,6 +19,14 @@
     align-items: center;
 }
 
+@mixin flex-inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// SECTION COINFIGURATIONS
+
 @mixin light-section{
     background: $gray;
     width: 100%;

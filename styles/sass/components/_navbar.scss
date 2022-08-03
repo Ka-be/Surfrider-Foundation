@@ -13,3 +13,22 @@ nav{
     height: 90px;
     width: auto;
 }
+
+.menu{
+    @include flex-inline;
+
+    li > a{
+        color: $gray;
+        margin-right: $offset;
+        text-transform: uppercase;
+    }
+}
+
+
+// MEDIA QUERIES
+
+@media screen and(min-width: 1280px) {
+    .toggle{
+        display: none;
+    }
+}
