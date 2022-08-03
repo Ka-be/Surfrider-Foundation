@@ -30,3 +30,19 @@
     width: 100%;
     height: 100vh;
 }
+
+// FONT CONFIGURATION
+@mixin thin-poppins{
+    font-family: 'poppins', sans-serif;
+    font-weight: 100;
+}
+
+@mixin regular-poppins{
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+}
+
+@mixin bold-poppins{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}

@@ -11,13 +11,14 @@ header{
 
     .pretitle{
         width: 100%;
-        font-weight: 100;
         font-size: 38px;
         
             &::before{
                 content: '';
                 animation: we_are 10s step-end infinite;
             }
+
+        @include regular-poppins;
     }
         
 
@@ -25,4 +26,6 @@ header{
         font-weight: 600;
         font-size: 50px;
         width: 100%;
+
+        @include bold-poppins;
     }
