@@ -12,22 +12,78 @@ nav{
 .logo{
     height: 90px;
     width: auto;
+    position: relative;
+    z-index: 20;
 }
 
 .menu{
-    @include flex-inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $darkblue;
+    width: 100vw;
+    height: 100vh;
+    @include flex-column-evenly;
+    transform: translateX(-100%); //Disparition du menu sur le coté
+    transition: transform 1s;
+
 
     li > a{
         color: $gray;
-        margin-right: $offset;
         text-transform: uppercase;
+        font-size: 1.5rem;
     }
 }
+
+.toggle{
+    margin-right: $offset;
+    font-size: 2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+
+    >.toggle_close{
+        display: none;
+    }
+}
+
+
+// TOGGLE DISPLAYS
+.open_menu{
+    .toggle_open{ //Supression du bouton "Burger" lors du click
+        display: none;
+    }
+
+    .toggle_close{ //Apparition du bouton "Croix" lors du click
+        display: block;
+    }
+
+    .menu{
+        transform: translateX(0); //Apparition du menu sur sa position initiale
+    }
+}
+
+
+
 
 
 // MEDIA QUERIES
 
 @media screen and(min-width: 1280px) {
+    .menu{
+        @include flex-inline;
+        position: relative;
+        background: transparent;
+        width: 50%;
+        height: inherit;
+        margin-right: $offset;
+        transform: translateX(0); //Disparition du menu sur le coté
+    
+        li > a{
+            font-size: 1rem;
+        }
+    }
+    
     .toggle{
         display: none;
     }
