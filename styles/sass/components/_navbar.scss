@@ -9,13 +9,7 @@ nav{
     @include thin-poppins;
 }
 
-    .logo{
-        height: 90px;
-        width: auto;
-    }
-
-    .menu{
-        margin-right: $offset;
-    }
-
-    
+.logo{
+    height: 90px;
+    width: auto;
+}
