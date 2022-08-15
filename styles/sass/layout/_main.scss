@@ -44,3 +44,17 @@
     width: 90%;
     margin-bottom: $offset;
 }
+
+
+// ACTIONS SECTION
+.actions_container, .actions__item{
+    @include flex-column-center;
+}
+
+.actions__item{
+    height: 250px;
+    width: 250px;
+    background: $gray;
+    margin: $offset 0;
+    text-align: center;
+}
