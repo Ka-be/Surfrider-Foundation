@@ -27,6 +27,11 @@
     text-align: justify;
 }
 
+.values__item > img{
+    height: 150px;
+    border-radius: 100%;
+}
+
 .values__item > h3{
     text-transform: uppercase;
     @include bold-poppins;
