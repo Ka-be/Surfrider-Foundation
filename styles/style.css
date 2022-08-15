@@ -148,6 +148,24 @@ body {
   color: #EFF1F3;
 }
 
+.values_container, .values__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.values__item {
+  padding: 20px;
+  text-align: justify;
+}
+
+.values__item > h3 {
+  text-transform: uppercase;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+
 nav {
   background: transparent;
   color: #EFF1F3;

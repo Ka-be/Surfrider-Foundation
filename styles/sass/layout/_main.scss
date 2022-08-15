@@ -1,3 +1,5 @@
+// SECTION TITLE CONFIG
+
 .section_title{
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -13,4 +15,19 @@
 
 .light_title {
     @include light_title;
+}
+
+// VALUES SECTION
+.values_container, .values__item{
+    @include flex-column-center;
+}
+
+.values__item{
+    padding: 20px;
+    text-align: justify;
+}
+
+.values__item > h3{
+    text-transform: uppercase;
+    @include bold-poppins;
 }
