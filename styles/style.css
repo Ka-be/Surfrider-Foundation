@@ -131,6 +131,23 @@ body {
   background-attachment: fixed;
 }
 
+.section_title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+
+.dark_title {
+  color: #124e59;
+}
+
+.light_title {
+  color: #EFF1F3;
+}
+
 nav {
   background: transparent;
   color: #EFF1F3;
@@ -249,16 +266,19 @@ h1 {
   background: #EFF1F3;
   width: 100%;
   height: 100vh;
+  padding-top: 30px;
 }
 
 .actions {
   background: #6da8b8;
   width: 100%;
   height: 100vh;
+  padding-top: 30px;
 }
 
 .helpus {
   background: #EFF1F3;
   width: 100%;
   height: 100vh;
+  padding-top: 30px;
 }/*# sourceMappingURL=style.css.map */

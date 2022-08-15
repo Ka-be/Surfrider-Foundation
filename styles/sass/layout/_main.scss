@@ -1,0 +1,16 @@
+.section_title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-align: center;
+
+    @include bold-poppins;
+}
+
+.dark_title {
+    @include dark_title;
+}
+
+.light_title {
+    @include light_title;
+}
