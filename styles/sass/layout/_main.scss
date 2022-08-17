@@ -47,14 +47,11 @@
 
 
 // ACTIONS SECTION
-.actions_container, .actions__item{
+.actions_container{
     @include flex-column-center;
 }
 
-.actions__item{
-    height: 250px;
-    width: 250px;
-    background: $gray;
-    margin: $offset 0;
-    text-align: center;
+.card{
+    width: 80%;
+    margin-bottom: 30px;
 }

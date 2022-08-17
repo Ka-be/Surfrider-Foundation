@@ -50,11 +50,13 @@
 }
 
 @mixin light_title{
-    color: $gray
+    color: $gray;
+    margin-bottom: 10px;
 }
 
 @mixin dark_title{
-    color: $darkblue
+    color: $darkblue;
+    margin-bottom: 10px;
 }
 
 // FONT CONFIGURATION
