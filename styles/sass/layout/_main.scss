@@ -56,3 +56,22 @@
     margin-bottom: 30px;
     border: none;
 }
+
+// ACTIONS SECTION - MODAL
+.mb-3 > label{
+    color: $darkblue;
+    font-weight: 500;
+}
+
+.input-group{
+    @include flex-inline
+}
+
+.currency-label{
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-group-addon{
+    flex: 2;
+}

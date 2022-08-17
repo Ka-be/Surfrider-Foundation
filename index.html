@@ -105,29 +105,33 @@
                             <form>
                             <div class="mb-3">
                                 <label for="lastname" class="col-form-label">Nom</label>
-                                <input type="text" class="form-control" id="lastname">
+                                <input type="text" class="form-control" id="lastname" required placeholder="Slater">
                             </div>
                             <div class="mb-3">
                                 <label for="firstname" class="col-form-label">Prénom</label>
-                                <input type="text" class="form-control" id="firstname">
+                                <input type="text" class="form-control" id="firstname" required placeholder="Kelly">
                             </div>
                             <div class="mb-3">
                                 <label for="mail" class="col-form-label">Mail</label>
-                                <input type="email" class="form-control" id="mail">
+                                <input type="email" class="form-control" id="mail" required placeholder="kelly.slater@gmail.com">
                             </div>
                             <div class="mb-3">
                                 <label for="donate" class="col-form-label">Promesse de don</label>
-                                <input type="number" class="form-control" id="donate">
+                                <div class="input-group">
+                                    <input type="number" class="form-control currency-label" id="donate" required placeholder="10, 20, 2890.." min="1">
+                                    <span class="input-group-addon">Euros</span>
+                                </div>
+                                
                             </div>
                             <div class="mb-3">
                                 <label for="message-text" class="col-form-label">Message :</label>
-                                <textarea class="form-control" id="message-text"></textarea>
+                                <textarea class="form-control" id="message-text" placeholder="Hello !"></textarea>
                             </div>
                             </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                            <button type="button" class="btn btn-primary">Envoyer</button>
+                            <button type="button" class="btn btn-info">Envoyer</button>
                         </div>
                     </div>
                 </div>

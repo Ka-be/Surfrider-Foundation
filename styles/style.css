@@ -152,6 +152,27 @@ body {
   border: none;
 }
 
+.mb-3 > label {
+  color: #124e59;
+  font-weight: 500;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currency-label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.input-group-addon {
+  flex: 2;
+}
+
 nav {
   background: transparent;
   color: #EFF1F3;
