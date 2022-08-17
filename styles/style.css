@@ -193,6 +193,16 @@ body {
   text-align: center;
 }
 
+.btn {
+  color: #6da8b8;
+  border-color: #6da8b8;
+}
+.btn:hover, .btn:active, .btn:focus, .btn:visited {
+  background: #6da8b8;
+  color: #EFF1F3;
+  border: transparent;
+}
+
 nav {
   background: transparent;
   color: #EFF1F3;
