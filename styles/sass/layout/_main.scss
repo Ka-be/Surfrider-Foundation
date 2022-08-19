@@ -22,8 +22,14 @@
     @include flex-column-center;
 }
 
+.presentation{
+    text-align: justify;
+    padding: $offset;
+    @include bold-poppins;
+}
+
 .values__item{
-    padding: 20px;
+    padding: $offset;
     text-align: center;
 }
 
@@ -43,6 +49,7 @@
 .values__item > p{
     width: 90%;
     margin-bottom: $offset;
+
 }
 
 
@@ -58,7 +65,7 @@
 }
 
 .helpus{
-    padding: 20px;
+    padding: $offset;
     text-align: justify;
     @include flex-column-evenly;
 }

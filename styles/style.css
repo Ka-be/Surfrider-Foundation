@@ -116,8 +116,15 @@ body {
   align-items: center;
 }
 
+.presentation {
+  text-align: justify;
+  padding: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+
 .values__item {
-  padding: 20px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -153,7 +160,7 @@ body {
 }
 
 .helpus {
-  padding: 20px;
+  padding: 30px;
   text-align: justify;
   display: flex;
   flex-direction: column;
