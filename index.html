@@ -91,57 +91,58 @@
         <section id="helpus" class="helpus light-section">
             <h2 class="section_title dark_title">Aidez-nous</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magni nisi illum hic magnam distinctio quas repellendus deleniti doloribus quod temporibus amet impedit, ut vitae id, fuga aut repudiandae voluptates!</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Donate">Faire une promesse de don</button>
-
-            <!-- Fenetre modale - Faire un don -->
-            <div class="modal fade" id="Donate" tabindex="-1" aria-labelledby="Donate" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Faire un don</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form>
-                            <div class="mb-3">
-                                <label for="lastname" class="col-form-label">Nom</label>
-                                <input type="text" class="form-control" id="lastname" required placeholder="Slater">
-                            </div>
-                            <div class="mb-3">
-                                <label for="firstname" class="col-form-label">Prénom</label>
-                                <input type="text" class="form-control" id="firstname" required placeholder="Kelly">
-                            </div>
-                            <div class="mb-3">
-                                <label for="mail" class="col-form-label">Mail</label>
-                                <input type="email" class="form-control" id="mail" required placeholder="kelly.slater@gmail.com">
-                            </div>
-                            <div class="mb-3">
-                                <label for="donate" class="col-form-label">Promesse de don</label>
-                                <div class="input-group">
-                                    <input type="number" class="form-control currency-label" id="donate" required placeholder="10, 20, 2890.." min="1">
-                                    <span class="input-group-addon">Euros</span>
-                                </div>
-                                
-                            </div>
-                            <div class="mb-3">
-                                <label for="message-text" class="col-form-label">Message :</label>
-                                <textarea class="form-control" id="message-text" placeholder="Hello !"></textarea>
-                            </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                            <button type="button" class="btn btn-info">Envoyer</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#Donate">Faire une promesse de don</button>
         </section>
     </main>
 
     <footer>
     </footer>
+
+
+    <!-- Fenetre modale - Faire un don -->
+    <div class="modal fade" id="Donate" tabindex="-1" aria-labelledby="Donate" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Faire un don</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                    <div class="mb-3">
+                        <label for="lastname" class="col-form-label">Nom</label>
+                        <input type="text" class="form-control" id="lastname" required placeholder="Slater">
+                    </div>
+                    <div class="mb-3">
+                        <label for="firstname" class="col-form-label">Prénom</label>
+                        <input type="text" class="form-control" id="firstname" required placeholder="Kelly">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mail" class="col-form-label">Mail</label>
+                        <input type="email" class="form-control" id="mail" required placeholder="kelly.slater@gmail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="donate" class="col-form-label">Promesse de don</label>
+                        <div class="input-group">
+                            <input type="number" class="form-control currency-label" id="donate" required placeholder="10, 20, 2890.." min="1">
+                            <span class="input-group-addon">Euros</span>
+                        </div>
+                        
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message :</label>
+                        <textarea class="form-control" id="message-text" placeholder="Hello !"></textarea>
+                    </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-info">Envoyer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="/scripts/app.js"></script>

@@ -57,3 +57,8 @@
     border: none;
 }
 
+.helpus{
+    padding: 20px;
+    text-align: justify;
+    @include flex-column-evenly;
+}

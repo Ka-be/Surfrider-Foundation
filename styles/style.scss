@@ -19,12 +19,11 @@
 @import "sass/layout/contact";
 
 // COMPONENTS
-@import "sass/components/buttons";
 @import "sass/components/modal";
 @import "sass/components/navbar";
 @import "sass/components/header";
 
-// CUSTOM
+// BACKGROUND SECTIONS
 
 .values{
     @include light-section;

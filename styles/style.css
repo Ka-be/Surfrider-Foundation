@@ -152,6 +152,15 @@ body {
   border: none;
 }
 
+.helpus {
+  padding: 20px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .mb-3 > label {
   color: #124e59;
   font-weight: 500;
