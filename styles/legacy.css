@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+a:active {
+  color: inherit;
+}
+
+@-webkit-keyframes we_are {
+  0% {
+    content: "We are 🇬🇧";
+  }
+  10% {
+    content: "Nous sommes 🇫🇷";
+  }
+  20% {
+    content: "Wir sind 🇩🇪";
+  }
+  30% {
+    content: "Somos 🇪🇸";
+  }
+  40% {
+    content: "είμαστε 🇬🇷";
+  }
+  50% {
+    content: "Siamo 🇮🇹";
+  }
+  60% {
+    content: "We zijn 🇱🇺";
+  }
+  70% {
+    content: "Vi er 🇫🇮";
+  }
+  80% {
+    content: "Estamos 🇵🇹";
+  }
+  90% {
+    content: "Mi smo dobro 🇭🇷";
+  }
+  100% {
+    content: "Vi mår bra 🇸🇪";
+  }
+}
+
+@keyframes we_are {
+  0% {
+    content: "We are 🇬🇧";
+  }
+  10% {
+    content: "Nous sommes 🇫🇷";
+  }
+  20% {
+    content: "Wir sind 🇩🇪";
+  }
+  30% {
+    content: "Somos 🇪🇸";
+  }
+  40% {
+    content: "είμαστε 🇬🇷";
+  }
+  50% {
+    content: "Siamo 🇮🇹";
+  }
+  60% {
+    content: "We zijn 🇱🇺";
+  }
+  70% {
+    content: "Vi er 🇫🇮";
+  }
+  80% {
+    content: "Estamos 🇵🇹";
+  }
+  90% {
+    content: "Mi smo dobro 🇭🇷";
+  }
+  100% {
+    content: "Vi mår bra 🇸🇪";
+  }
+}/*# sourceMappingURL=legacy.css.map */
