@@ -114,4 +114,12 @@ h1 {
 .form_container {
   width: 90%;
   margin: auto;
+  color: #EFF1F3;
+}
+.form_container .form-group {
+  margin: 15px 0;
+}
+
+#pre_phone {
+  height: 40px;
 }/*# sourceMappingURL=contact.css.map */

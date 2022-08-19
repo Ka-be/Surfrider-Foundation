@@ -22,16 +22,26 @@
 
     <div class="form_container">
         <form>
-   
                 <div class="form-group col-md-6">
                     <label for="email">E-mail</label>
                     <input type="email" class="form-control" id="email" placeholder="kelly.slater@gmail.com" required>
                 </div>
-
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="phone">Télephone</label>
-                        <input type="phone" class="form-control" id="phone" placeholder="+33 6 34 22 31">
+                <div class="form-group">
+                    <div class="col-md-4 mb-3">
+                        <label for="phone">Téléphone</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                            <select class="input-group-text" id="pre_phone">
+                                <option value="+33">🇫🇷 +33</option>
+                                <option value="+31">🇳🇱 +31</option>
+                                <option value="+34">🇪🇸 +34</option>
+                                <option value="+32">🇧🇪 +32</option>
+                                <option value="+44">🇬🇧 +44</option>
+                            </select>
+                        </div>
+                            <input type="phone" class="form-control" id="phone" placeholder="6 34 89 57 28">
+                        </div>
+                    </div>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="subject">Sujet</label>
