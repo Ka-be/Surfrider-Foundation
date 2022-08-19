@@ -8,3 +8,18 @@
 @import "sass/tools/variables";
 @import "sass/tools/mixins";
 @import "sass/tools/animations";
+
+//CUSTOM
+body{
+    background: $darkblue;
+}
+
+.return{
+    color: $gray;
+    @include return;
+}
+
+h1{
+    @include page_title;
+    color: $gray;
+}

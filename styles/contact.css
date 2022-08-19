@@ -89,4 +89,24 @@ a:active {
   100% {
     content: "Vi mår bra 🇸🇪";
   }
+}
+body {
+  background: #124e59;
+}
+
+.return {
+  color: #EFF1F3;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.return::before {
+  font: var(--fa-font-solid);
+  content: "\f053";
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  color: #EFF1F3;
 }/*# sourceMappingURL=contact.css.map */
