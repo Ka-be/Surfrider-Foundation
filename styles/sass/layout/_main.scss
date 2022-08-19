@@ -64,8 +64,14 @@
     border: none;
 }
 
+// HELP US SECTION
+
 .helpus{
     padding: $offset;
     text-align: justify;
     @include flex-column-evenly;
+}
+
+.helpus > ul{
+    list-style-type: square;
 }

@@ -38,3 +38,9 @@
 .helpus{
     @include light-section;
 }
+
+//Links
+a.link_text{
+    font-weight: bold;
+    color: $lightblue;
+}

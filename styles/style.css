@@ -175,6 +175,10 @@ body {
   align-items: center;
 }
 
+.helpus > ul {
+  list-style-type: square;
+}
+
 nav {
   background: transparent;
   color: #EFF1F3;
@@ -366,4 +370,9 @@ footer {
   width: 100%;
   height: auto;
   padding-top: 30px;
+}
+
+a.link_text {
+  font-weight: bold;
+  color: #6da8b8;
 }/*# sourceMappingURL=style.css.map */
