@@ -17,11 +17,13 @@
 @import "sass/layout/main";
 @import "sass/layout/events";
 @import "sass/layout/contact";
+@import "sass/layout/legacy";
 
 // COMPONENTS
-@import "sass/components/modal";
 @import "sass/components/navbar";
 @import "sass/components/header";
+@import "sass/components/modal";
+@import "sass/components/footer";
 
 // BACKGROUND SECTIONS
 

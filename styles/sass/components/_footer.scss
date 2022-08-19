@@ -1,0 +1,27 @@
+footer{
+    width: 100vw;
+    height: 100px;
+    background: $darkblue;
+    color: $gray;
+    padding: $offset;
+    font-size: 0.8rem;
+
+    @include flex-column-evenly;
+    @include thin-poppins;
+}
+
+.socials_container{
+    width: 100%;
+    @include flex-inline;
+}
+
+.links_container{
+    width: 100%;    
+    @include flex-inline
+}
+
+.socials{
+    color: $gray;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
