@@ -23,3 +23,8 @@ h1{
     @include page_title;
     color: $gray;
 }
+
+.form_container{
+    width: 90%;
+    margin: auto;
+}

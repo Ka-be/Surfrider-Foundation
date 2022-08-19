@@ -109,4 +109,9 @@ h1 {
   text-align: center;
   margin-top: 30px;
   color: #EFF1F3;
+}
+
+.form_container {
+  width: 90%;
+  margin: auto;
 }/*# sourceMappingURL=contact.css.map */
