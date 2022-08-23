@@ -8,3 +8,25 @@
 @import "sass/tools/variables";
 @import "sass/tools/mixins";
 @import "sass/tools/animations";
+
+//LAYOUT
+@import "sass/layout/events-grid";
+
+//CUSTOM
+body{
+    background: $gray;
+}
+
+.return{
+    color: $darkblue;
+    @include return;
+}
+
+h1{
+    @include page_title;
+    color: $darkblue;
+}
+
+
+
+
