@@ -28,21 +28,44 @@ h1{
 }
 
 .event{
-    color: $gray;
     @include flex-column-end;
+    background-blend-mode:multiply;
+    background-size: cover;
     
-    &.item-1 { background-image: url(https://picsum.photos/id/1083/200/); }
-    &.item-2 { background-image: url(https://picsum.photos/id/218/200/); }
-    &.item-3 { background-image: url(https://picsum.photos/id/12/200/); }
-    &.item-4 { background-image: url(https://picsum.photos/id/13/200/); }
-    &.item-5 { background-image: url(https://picsum.photos/id/14/200/); }
-    &.item-6 { background-image: url(https://picsum.photos/id/147/200/); }
-    &.item-7 { background-image: url(https://picsum.photos/id/154/200/); }
-    &.item-8 { background-image: url(https://picsum.photos/id/179/200/); }
+    &.item-1 { 
+        background-image: url(https://picsum.photos/id/1083/200/);
+     }
+    &.item-2 { 
+        background-image: url(https://picsum.photos/id/218/200/);
+     }
+    &.item-3 { 
+        background-image: url(https://picsum.photos/id/12/200/);
+     }
+    &.item-4 { 
+        background-image: url(https://picsum.photos/id/13/200/);
+     }
+    &.item-5 { 
+        background-image: url(https://picsum.photos/id/14/200/);
+     }
+    &.item-6 { 
+        background-image: url(https://picsum.photos/id/147/200/);
+     }
+    &.item-7 { 
+        background-image: url(https://picsum.photos/id/154/200/);
+     }
+    &.item-8 { 
+        background-image: url(https://picsum.photos/id/179/200/); 
+     }
 }
 
 //TILES BACKGROUND
 
+.event_date, .event_title{
+    color: $gray;
+
+    @include bold-poppins;
+
+}
 
 .event_date{
     font-size: 1.2rem;

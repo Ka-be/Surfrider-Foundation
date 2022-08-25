@@ -6,7 +6,7 @@ nav{
     margin-top: 20px;
 
     @include flex-space_between;
-    @include thin-poppins;
+    @include bold-poppins;
 }
 
 .logo{
