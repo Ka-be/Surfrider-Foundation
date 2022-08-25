@@ -149,4 +149,39 @@ h1 {
   text-align: center;
   margin-top: 30px;
   color: #124e59;
+}
+
+.event {
+  color: #EFF1F3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.event.item-1 {
+  background-image: url(https://picsum.photos/id/1083/200/);
+}
+.event.item-2 {
+  background-image: url(https://picsum.photos/id/218/200/);
+}
+.event.item-3 {
+  background-image: url(https://picsum.photos/id/12/200/);
+}
+.event.item-4 {
+  background-image: url(https://picsum.photos/id/13/200/);
+}
+.event.item-5 {
+  background-image: url(https://picsum.photos/id/14/200/);
+}
+.event.item-6 {
+  background-image: url(https://picsum.photos/id/147/200/);
+}
+.event.item-7 {
+  background-image: url(https://picsum.photos/id/154/200/);
+}
+.event.item-8 {
+  background-image: url(https://picsum.photos/id/179/200/);
+}
+
+.event_date {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=events.css.map */

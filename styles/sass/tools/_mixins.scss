@@ -20,6 +20,12 @@
     align-items: center;
 }
 
+@mixin flex-column-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 @mixin flex-space_between {
     display: flex;
     justify-content: space-between;
