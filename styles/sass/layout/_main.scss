@@ -23,7 +23,7 @@
 }
 
 .presentation{
-    text-align: justify;
+    text-align: center;
     padding: $offset;
     @include bold-poppins;
 }
@@ -75,3 +75,41 @@
 .helpus > ul{
     list-style-type: square;
 }
+
+
+//MEDIA QUERIES - 767px
+    @media screen and(min-width: 767px) {
+        .presentation{
+            font-size: 1.2rem;
+        }
+
+        .values__item > img{
+            height: 180px;
+        }
+
+        .values__item > h3{
+            font-size: 1.4rem;
+        }
+        
+        .values__item > p{
+            font-size: 1.2rem;
+        }
+
+        .card{
+            width: 60%;
+        }
+
+        .helpus{
+            align-items: flex-start;
+
+            & h2,
+            & .btn{
+                align-self: center;
+            }
+        }
+    }
+
+    //MEDIA QUERIES - 1024px
+    
+    
+

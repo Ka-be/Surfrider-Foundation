@@ -124,7 +124,7 @@ body {
 }
 
 .presentation {
-  text-align: justify;
+  text-align: center;
   padding: 30px;
   font-family: "poppins", sans-serif;
   font-weight: 600;
@@ -179,6 +179,29 @@ body {
   list-style-type: square;
 }
 
+@media screen and (min-width: 767px) {
+  .presentation {
+    font-size: 1.2rem;
+  }
+  .values__item > img {
+    height: 180px;
+  }
+  .values__item > h3 {
+    font-size: 1.4rem;
+  }
+  .values__item > p {
+    font-size: 1.2rem;
+  }
+  .card {
+    width: 60%;
+  }
+  .helpus {
+    align-items: flex-start;
+  }
+  .helpus h2, .helpus .btn {
+    align-self: center;
+  }
+}
 nav {
   background: transparent;
   color: #EFF1F3;
@@ -189,7 +212,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-family: "poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .logo {
