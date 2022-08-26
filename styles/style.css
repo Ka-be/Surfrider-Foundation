@@ -202,6 +202,35 @@ body {
     align-self: center;
   }
 }
+@media screen and (min-width: 1024px) {
+  .values_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .values__item {
+    flex: 1;
+    align-self: flex-start;
+    text-align: justify;
+  }
+  .actions_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+    margin: 30px;
+  }
+  .helpus {
+    font-size: 1.2rem;
+  }
+  .helpus .btn {
+    font-size: 1.2rem;
+  }
+}
 nav {
   background: transparent;
   color: #EFF1F3;

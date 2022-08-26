@@ -112,7 +112,32 @@
 // ---------------
 //MEDIA QUERIES - 1024px
     @media screen and(min-width: 1024px) {
-        
+        .values_container{
+            @include flex-center;
+        }
+
+        .values__item{
+            flex: 1;
+            align-self: flex-start;
+            text-align: justify;
+        }
+
+        .actions_container{
+            @include flex-center;
+        }
+
+        .card{
+            width: 80%;
+            margin: $offset;
+        }
+
+        .helpus{
+            font-size: 1.2rem;
+
+            & .btn{
+                font-size: 1.2rem;
+            }
+        }
     }
     
 
