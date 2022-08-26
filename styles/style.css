@@ -411,6 +411,30 @@ footer {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 767px) {
+  footer {
+    font-size: 1rem;
+  }
+  .socials {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .socials_container, .links_container {
+    width: 70%;
+  }
+  .socials {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .socials_container, .links_container {
+    width: 50%;
+  }
+  .socials {
+    font-size: 2rem;
+  }
+}
 .values {
   background: #EFF1F3;
   width: 100%;
