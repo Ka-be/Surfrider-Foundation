@@ -316,6 +316,14 @@ h1 {
   font-weight: 600;
 }
 
+@media screen and (min-width: 1024px) {
+  .pretitle {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+}
 .mb-3 > label {
   color: #124e59;
   font-weight: 500;

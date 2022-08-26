@@ -76,7 +76,7 @@
     list-style-type: square;
 }
 
-
+// ---------------
 //MEDIA QUERIES - 767px
     @media screen and(min-width: 767px) {
         .presentation{
@@ -109,7 +109,10 @@
         }
     }
 
-    //MEDIA QUERIES - 1024px
-    
+// ---------------
+//MEDIA QUERIES - 1024px
+    @media screen and(min-width: 1024px) {
+        
+    }
     
 
