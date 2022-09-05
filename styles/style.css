@@ -253,7 +253,8 @@ nav {
   color: #EFF1F3;
   height: 90px;
   width: 100vw;
-  margin-top: 20px;
+  position: fixed;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -262,7 +263,7 @@ nav {
 }
 
 .logo {
-  height: 90px;
+  height: 50px;
   width: auto;
   position: relative;
   z-index: 20;
