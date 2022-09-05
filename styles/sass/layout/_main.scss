@@ -76,6 +76,10 @@
     list-style-type: square;
 }
 
+.helpus_img{
+    display: none;
+}
+
 // ---------------
 //MEDIA QUERIES - 767px
     @media screen and(min-width: 767px) {
@@ -136,6 +140,16 @@
 
             & .btn{
                 font-size: 1.2rem;
+            }
+
+            //Flex row
+        }
+
+        .helpus_img{
+            display: block;
+            
+            >img{
+                width:50%;
             }
         }
     }

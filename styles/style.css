@@ -179,6 +179,10 @@ body {
   list-style-type: square;
 }
 
+.helpus_img {
+  display: none;
+}
+
 @media screen and (min-width: 767px) {
   .presentation {
     font-size: 1.2rem;
@@ -229,6 +233,12 @@ body {
   }
   .helpus .btn {
     font-size: 1.2rem;
+  }
+  .helpus_img {
+    display: block;
+  }
+  .helpus_img > img {
+    width: 50%;
   }
 }
 nav {
@@ -435,7 +445,7 @@ footer {
     width: 50%;
   }
   .socials {
-    font-size: 2kkrem;
+    font-size: 2rem;
   }
 }
 .values {
