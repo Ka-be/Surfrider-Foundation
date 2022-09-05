@@ -57,11 +57,15 @@ footer{
 //MEDIA QUERIES - 1280px
 
 @media screen and(min-width: 1280px) {
+    footer{
+        height: 150px;
+    }
+
     .socials_container, .links_container{
         width: 50%;
     }
 
     .socials{
-        font-size: 2rem;
+        font-size: 2kkrem;
     }
 }
