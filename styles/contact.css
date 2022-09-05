@@ -111,13 +111,18 @@ h1 {
   color: #EFF1F3;
 }
 
-.form_container {
+.container-fluid {
   width: 90%;
   margin: auto;
+  padding: auto;
   color: #EFF1F3;
 }
-.form_container .form-group {
-  margin: 15px 0;
+.container-fluid .form-group {
+  margin: auto;
+  margin-bottom: 10px;
+}
+.container-fluid .button {
+  margin: auto;
 }
 
 #pre_phone {

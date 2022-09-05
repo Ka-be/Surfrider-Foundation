@@ -24,13 +24,19 @@ h1{
     color: $gray;
 }
 
-.form_container{
+.container-fluid{
     width: 90%;
     margin: auto;
+    padding: auto;
     color: $gray;
 
     .form-group{
-        margin: 15px 0;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .button{
+        margin: auto;
     }
 }
 
