@@ -121,7 +121,8 @@ h1 {
   margin: auto;
   margin-bottom: 10px;
 }
-.container-fluid .button {
+.container-fluid button {
+  font-size: 1.2em;
   margin: auto;
 }
 
