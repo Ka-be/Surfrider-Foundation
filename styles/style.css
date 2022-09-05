@@ -372,6 +372,9 @@ h1 {
 }
 
 @media screen and (min-width: 1024px) {
+  header {
+    height: 100vh;
+  }
   .pretitle {
     font-size: 50px;
   }
