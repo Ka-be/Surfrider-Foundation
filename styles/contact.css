@@ -122,4 +122,10 @@ h1 {
 
 #pre_phone {
   height: 40px;
+}
+
+@media screen and (min-width: 767px) {
+  input {
+    width: 300px;
+  }
 }/*# sourceMappingURL=contact.css.map */
