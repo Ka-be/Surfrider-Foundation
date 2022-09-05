@@ -189,7 +189,7 @@ h1 {
 }
 .event:hover > .event_date,
 .event:hover > .event_title {
-  background: black;
+  background: #124e59;
 }
 
 .event_date, .event_title {
