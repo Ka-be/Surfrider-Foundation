@@ -28,6 +28,7 @@ nav{
     @include flex-column-evenly;
     transform: translateX(-100%); //Disparition du menu sur le coté
     transition: transform 1s;
+    margin: 0;
 
 
     li > a{
@@ -72,6 +73,14 @@ nav{
 // MEDIA QUERIES
 
 @media screen and(min-width: 1280px) {
+    nav{
+        height: 100px;
+    }
+
+    .logo{
+        height: 80px;
+    }
+    
     .menu{
         @include flex-inline;
         position: relative;

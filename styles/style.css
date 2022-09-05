@@ -283,6 +283,7 @@ nav {
   align-items: center;
   transform: translateX(-100%);
   transition: transform 1s;
+  margin: 0;
 }
 .menu li > a {
   color: #EFF1F3;
@@ -312,6 +313,12 @@ nav {
 }
 
 @media screen and (min-width: 1280px) {
+  nav {
+    height: 100px;
+  }
+  .logo {
+    height: 80px;
+  }
   .menu {
     display: flex;
     flex-direction: row;
