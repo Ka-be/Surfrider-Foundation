@@ -175,12 +175,12 @@ body {
   align-items: center;
 }
 
-.helpus > ul {
-  list-style-type: square;
-}
-
 .helpus_img {
   display: none;
+}
+
+.helpus_content > ul {
+  list-style-type: square;
 }
 
 @media screen and (min-width: 767px) {
@@ -234,11 +234,18 @@ body {
   .helpus .btn {
     font-size: 1.2rem;
   }
+  .helpus_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
   .helpus_img {
     display: block;
+    text-align: center;
   }
   .helpus_img > img {
-    width: 50%;
+    width: 60%;
   }
 }
 nav {

@@ -72,13 +72,14 @@
     @include flex-column-evenly;
 }
 
-.helpus > ul{
-    list-style-type: square;
-}
-
 .helpus_img{
     display: none;
 }
+
+.helpus_content > ul{
+    list-style-type: square;
+}
+
 
 // ---------------
 //MEDIA QUERIES - 767px
@@ -141,15 +142,18 @@
             & .btn{
                 font-size: 1.2rem;
             }
+        }
 
-            //Flex row
+        .helpus_container{
+            @include flex-inline;
         }
 
         .helpus_img{
             display: block;
+            text-align: center;
             
             >img{
-                width:50%;
+                width:60%;
             }
         }
     }
