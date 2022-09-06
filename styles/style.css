@@ -227,7 +227,6 @@ body {
   .card {
     width: 80%;
     margin: 30px;
-    min-height: 470px;
   }
   .helpus {
     font-size: 1.2rem;
@@ -247,11 +246,6 @@ body {
   }
   .helpus_img > img {
     width: 60%;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .card {
-    min-height: 500px;
   }
 }
 nav {
