@@ -30,7 +30,9 @@ h1{
 .event{
     @include flex-column-end;
     background-blend-mode:multiply;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: none;
+    background-position: center;
     
     &.item-1 { 
         background-image: url(https://picsum.photos/id/1083/200/);

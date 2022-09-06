@@ -157,7 +157,9 @@ h1 {
   flex-direction: column;
   justify-content: flex-end;
   background-blend-mode: multiply;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: none;
+  background-position: center;
 }
 .event.item-1 {
   background-image: url(https://picsum.photos/id/1083/200/);
