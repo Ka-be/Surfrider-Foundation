@@ -338,6 +338,27 @@ nav {
     display: none;
   }
 }
+.cookie-banner {
+  position: fixed;
+  bottom: 10%;
+  left: 1%;
+  width: 20%;
+  height: 15%;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #124e59;
+  border-radius: 5px;
+  color: #EFF1F3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cookie-banner > p {
+  font-size: 1.5em;
+}
+
 header {
   color: #EFF1F3;
   text-transform: uppercase;

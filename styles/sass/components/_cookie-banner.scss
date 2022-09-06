@@ -1,0 +1,18 @@
+.cookie-banner {
+    position: fixed;
+    bottom: 10%;
+    left: 1%;
+    width: 20%;
+    height: 15%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $darkblue;
+    border-radius: 5px;
+    color: $gray;
+    @include flex-column-center;
+
+    >p{
+        font-size: 1.5em;
+    }
+}
