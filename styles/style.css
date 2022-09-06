@@ -249,6 +249,11 @@ body {
     width: 60%;
   }
 }
+@media screen and (min-width: 1280px) {
+  .card {
+    min-height: 500px;
+  }
+}
 nav {
   background: #124e59;
   color: #EFF1F3;
