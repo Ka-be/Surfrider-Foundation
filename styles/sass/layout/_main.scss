@@ -1,4 +1,4 @@
-// SECTION TITLE CONFIG
+// SECTION TITLE
 
 .section_title{
     text-transform: uppercase;
@@ -53,7 +53,7 @@
 }
 
 
-// ACTIONS SECTION
+// SECTION ACTIONS
 .actions_container{
     @include flex-column-center;
 }
@@ -89,7 +89,7 @@
         }
 
         .values__item > img{
-            height: 180px;
+            height: 200px;
         }
 
         .values__item > h3{
@@ -134,6 +134,7 @@
         .card{
             width: 80%;
             margin: $offset;
+            min-height: 470px;
         }
 
         .helpus{

@@ -188,7 +188,7 @@ body {
     font-size: 1.2rem;
   }
   .values__item > img {
-    height: 180px;
+    height: 200px;
   }
   .values__item > h3 {
     font-size: 1.4rem;
@@ -227,6 +227,7 @@ body {
   .card {
     width: 80%;
     margin: 30px;
+    min-height: 470px;
   }
   .helpus {
     font-size: 1.2rem;
