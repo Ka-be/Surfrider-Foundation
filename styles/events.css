@@ -103,8 +103,8 @@ a:active {
 .event {
   background: #6da8b8;
   padding-left: 10px;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
 }
 .event.item-1 {
   grid-area: 1/1/1/2;
