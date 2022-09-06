@@ -44,3 +44,19 @@ header{
             font-size: 70px;
         }
     }
+
+    // ---------------
+//MEDIA QUERIES - 1400px
+@media screen and(min-width: 1400px) {
+    header{
+        height: 100vh;
+    }
+
+    .pretitle{
+        font-size: 90px;
+    }
+
+    h1{
+        font-size: 140px;
+    }
+}
