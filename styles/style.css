@@ -232,7 +232,8 @@ body {
     font-size: 1.2rem;
   }
   .helpus .btn {
-    font-size: 1.2rem;
+    margin-top: 20px;
+    font-size: 1.3rem;
   }
   .helpus_container {
     display: flex;
