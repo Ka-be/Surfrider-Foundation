@@ -30,52 +30,81 @@ h1{
 .event{
     @include flex-column-end;
     background-blend-mode:multiply;
-    background-size: contain;
+    background-size: cover;
     background-repeat: none;
     background-position: center;
     
     &.item-1 { 
-        background-image: url(https://picsum.photos/id/1083/200/);
+        background-image: url(https://picsum.photos/id/1083/500/);
     }
     &.item-2 { 
-        background-image: url(https://picsum.photos/id/218/200/);
+        background-image: url(https://picsum.photos/id/218/500/);
     }
     &.item-3 { 
-        background-image: url(https://picsum.photos/id/12/200/);
+        background-image: url(https://picsum.photos/id/12/500/);
     }
     &.item-4 { 
-        background-image: url(https://picsum.photos/id/13/200/);
+        background-image: url(https://picsum.photos/id/13/500/);
     }
     &.item-5 { 
-        background-image: url(https://picsum.photos/id/14/200/);
+        background-image: url(https://picsum.photos/id/14/500/);
     }
     &.item-6 { 
-        background-image: url(https://picsum.photos/id/147/200/);
+        background-image: url(https://picsum.photos/id/147/500/);
     }
     &.item-7 { 
-        background-image: url(https://picsum.photos/id/154/200/);
+        background-image: url(https://picsum.photos/id/154/500/);
     }
     &.item-8 { 
-        background-image: url(https://picsum.photos/id/179/200/); 
+        background-image: url(https://picsum.photos/id/179/500/); 
     }
+}
+
+.event_date,
+.event_title{
+    border-radius: 5px;
+    padding-top: 5px;
 }
 
 .event:hover{
     background-blend-mode: normal;
+    cursor: pointer;
 
     >.event_date, 
     >.event_title{
-        background: $darkblue;
+        background:linear-gradient(90deg, $darkblue 0%, rgba(0,212,255,0) 80%);
     }
 }
 
 //TILES BACKGROUND
 
-.event_date, .event_title{
+.event_date, 
+.event_title{
     color: $gray;
     @include bold-poppins;
 }
 
 .event_date{
     font-size: 1.2rem;
+}
+
+// ---------------
+//MEDIA QUERIES - 1280px
+@media screen and(min-width: 1280px) {
+    .event{
+        @include flex-column-center;
+        padding: auto;
+
+        &:hover{
+            >.event_date, 
+            >.event_title{
+                background:$darkblue;
+            }
+        }
+    }
+
+    .event_date, 
+    .event_title{
+        font-size: 1.5rem;
+    }
 }
