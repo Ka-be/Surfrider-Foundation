@@ -97,7 +97,7 @@ a:active {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   margin: 30px;
-  height: 80vh;
+  height: 100%;
 }
 
 .event {
@@ -238,6 +238,33 @@ h1 {
   font-size: 1.2rem;
 }
 
+footer {
+  color: #124e59;
+  width: 90%;
+  font-size: 1.2em;
+  border: solid #124e59 3px;
+  padding: 15px;
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .socials_container {
+  font-size: 1.6em;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+  footer {
+    width: 80%;
+  }
+}
 @media screen and (min-width: 1280px) {
   .return {
     font-size: 1.2em;
@@ -256,5 +283,8 @@ h1 {
   .event_date,
 .event_title {
     font-size: 1.5rem;
+  }
+  footer {
+    width: 60%;
   }
 }/*# sourceMappingURL=events.css.map */

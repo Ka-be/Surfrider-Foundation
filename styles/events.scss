@@ -93,6 +93,37 @@ h1{
     font-size: 1.2rem;
 }
 
+// FOOTER
+
+footer{
+    color: $darkblue;
+    width: 90%;
+    font-size: 1.2em;
+    border: solid $darkblue 3px;
+    padding: 15px;
+    margin: 50px auto;
+    text-align: center;
+
+    @include flex-column-center;
+
+
+    .socials_container{
+        font-size: 1.6em;
+        width: 100%;
+        margin-top: 10px;
+        @include flex-space_between;
+    }
+}
+
+// ---------------
+//MEDIA QUERIES - 767px
+@media screen and(min-width: 767px) {
+    footer{
+        width: 80%;
+    }
+}
+
+
 // ---------------
 //MEDIA QUERIES - 1280px
 @media screen and(min-width: 1280px) {
@@ -115,5 +146,9 @@ h1{
     .event_date, 
     .event_title{
         font-size: 1.5rem;
+    }
+
+    footer{
+        width: 60%
     }
 }
