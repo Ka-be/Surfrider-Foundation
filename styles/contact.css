@@ -135,13 +135,41 @@ h1 {
   height: 40px;
 }
 
+footer {
+  color: #EFF1F3;
+  width: 90%;
+  font-size: 1.2em;
+  border: solid #EFF1F3 3px;
+  padding: 15px;
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .socials_container {
+  font-size: 1.6em;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media screen and (min-width: 767px) {
   input {
     width: 300px;
+  }
+  footer {
+    width: 60%;
   }
 }
 @media screen and (min-width: 1280px) {
   .return {
     font-size: 1.2em;
+  }
+  footer {
+    width: 40%;
   }
 }/*# sourceMappingURL=contact.css.map */
