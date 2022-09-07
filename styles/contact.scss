@@ -16,12 +16,17 @@ body{
 
 .return{
     color: $gray;
+    background: $darkblue;
+    width: 100%;
+    position: fixed;
+    top: 0;
     @include return;
 }
 
 h1{
     @include page_title;
     color: $gray;
+    margin-top: 50px;
 }
 
 .container-fluid{
@@ -50,5 +55,13 @@ h1{
 @media screen and(min-width: 767px) {
     input{
         width: 300px;
+    }
+}
+
+// ---------------
+//MEDIA QUERIES - 1280px
+@media screen and(min-width: 1280px) {
+    .return{
+        font-size: 1.2em;
     }
 }

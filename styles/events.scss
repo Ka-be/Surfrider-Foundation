@@ -19,12 +19,17 @@ body{
 
 .return{
     color: $darkblue;
+    background: $gray;
+    width: 100%;
+    position: fixed;
+    top: 0;
     @include return;
 }
 
 h1{
     @include page_title;
     color: $darkblue;
+    margin-top: 50px;
 }
 
 .event{
@@ -91,6 +96,10 @@ h1{
 // ---------------
 //MEDIA QUERIES - 1280px
 @media screen and(min-width: 1280px) {
+    .return{
+        font-size: 1.2em
+    }
+
     .event{
         @include flex-column-center;
         padding: auto;

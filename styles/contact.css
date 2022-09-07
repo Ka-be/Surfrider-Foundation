@@ -96,6 +96,10 @@ body {
 
 .return {
   color: #EFF1F3;
+  background: #124e59;
+  width: 100%;
+  position: fixed;
+  top: 0;
   padding: 10px;
   text-transform: uppercase;
 }
@@ -109,6 +113,7 @@ h1 {
   text-align: center;
   margin-top: 30px;
   color: #EFF1F3;
+  margin-top: 50px;
 }
 
 .container-fluid {
@@ -133,5 +138,10 @@ h1 {
 @media screen and (min-width: 767px) {
   input {
     width: 300px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .return {
+    font-size: 1.2em;
   }
 }/*# sourceMappingURL=contact.css.map */
