@@ -7,7 +7,7 @@ footer{
     font-size: 0.8rem;
 
     @include flex-column-evenly;
-    @include thin-poppins;
+    @include regular-poppins;
 }
 
 .socials_container{
@@ -16,8 +16,13 @@ footer{
 }
 
 .links_container{
-    width: 100%;    
+    width: 100%;
+    text-align: center;   
     @include flex-inline
+}
+
+.contactus{
+    @include thin-poppins;
 }
 
 .socials{
