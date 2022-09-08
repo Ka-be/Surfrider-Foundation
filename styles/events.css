@@ -296,7 +296,7 @@ footer .socials_container {
   }
   .event:hover {
     background-blend-mode: normal;
-    cursor: default;
+    cursor: pointer;
   }
   .event:hover > .event_date,
 .event:hover > .event_title {
