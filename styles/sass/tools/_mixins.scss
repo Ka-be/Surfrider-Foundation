@@ -92,9 +92,14 @@
 @mixin return{
     padding: 10px;
     text-transform: uppercase;
+    transition: all 0.3s ease-in;
 
     &::before{
         font: var(--fa-font-solid);
         content: "\f053";
-    }  
+    } 
+    
+    &:hover{
+        font-weight: bolder;
+    }
 }
