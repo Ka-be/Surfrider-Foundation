@@ -71,6 +71,16 @@ h1{
     padding-top: 5px;
 }
 
+.event_hidden{
+    display: none;
+    color: $darkblue;
+    background: $gray;
+    width: 80%;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+
+}
 .event:hover{
     background-blend-mode: normal;
     cursor: pointer;
@@ -141,7 +151,28 @@ footer{
         font-size: 1.5rem;
     }
 
+    .event:hover{
+        background-blend-mode: normal;
+        cursor: default;
+    
+        >.event_date, 
+        >.event_title{
+            background:hsla(189, 66%, 21%, 0.8);
+        }
+    
+        >.event_hidden{
+            display: block;
+        }
+    }
+
     footer{
         width: 60%
     }
+
+
+    // .item-1:hover{
+    //     &::after{
+    //         content: 'hello';
+    //     }
+    // }
 }
