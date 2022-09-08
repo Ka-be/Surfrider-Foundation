@@ -228,7 +228,7 @@ h1 {
 }
 .event:hover > .event_date,
 .event:hover > .event_title {
-  background: linear-gradient(90deg, #124e59 0%, rgba(0, 212, 255, 0) 80%);
+  background: hsla(189deg, 66%, 21%, 0.8);
 }
 
 .event_date,
@@ -279,10 +279,6 @@ footer .socials_container {
     justify-content: center;
     align-items: center;
     padding: auto;
-  }
-  .event:hover > .event_date,
-.event:hover > .event_title {
-    background: #124e59;
   }
   .event_date,
 .event_title {
