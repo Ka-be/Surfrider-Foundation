@@ -333,7 +333,12 @@ nav {
     transform: translateX(0);
   }
   .menu li > a {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    opacity: 0.5;
+    transition: all 0.3s ease-in;
+  }
+  .menu li > a:hover {
+    opacity: 1;
   }
   .toggle {
     display: none;
