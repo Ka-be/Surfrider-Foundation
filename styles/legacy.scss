@@ -8,3 +8,46 @@
 @import "sass/tools/variables";
 @import "sass/tools/mixins";
 @import "sass/tools/animations";
+
+//CUSTOM
+body{
+    background: $darkblue;
+    color: $gray;
+    @include flex-column-center;
+    justify-content: center;
+}
+
+.return{
+    color: $gray;
+    background: $darkblue;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    @include return;
+}
+
+h1{
+    @include page_title;
+    color: $gray;
+    margin-top: 50px;
+}
+
+.container{
+    border: solid 3px $gray;
+    text-align: center;
+    padding: 2em;
+    width: 90%;
+    margin-top: 10%;
+}
+
+// ---------------
+//MEDIA QUERIES - 1280px
+@media screen and(min-width: 1280px) {
+    .return{
+        font-size: 1.2em;
+    }
+
+    .container{
+        width: 60%; 
+    }
+}

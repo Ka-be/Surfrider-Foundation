@@ -89,4 +89,56 @@ a:active {
   100% {
     content: "Vi mår bra 🇸🇪";
   }
+}
+body {
+  background: #124e59;
+  color: #EFF1F3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.return {
+  color: #EFF1F3;
+  background: #124e59;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in;
+}
+.return::before {
+  font: var(--fa-font-solid);
+  content: "\f053";
+}
+.return:hover {
+  font-weight: bolder;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  color: #EFF1F3;
+  margin-top: 50px;
+}
+
+.container {
+  border: solid 3px #EFF1F3;
+  text-align: center;
+  padding: 2em;
+  width: 90%;
+  margin-top: 10%;
+}
+
+@media screen and (min-width: 1280px) {
+  .return {
+    font-size: 1.2em;
+  }
+  .container {
+    width: 60%;
+  }
 }/*# sourceMappingURL=legacy.css.map */
