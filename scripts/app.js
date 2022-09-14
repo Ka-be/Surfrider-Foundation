@@ -7,7 +7,6 @@ toggle.addEventListener('click', function(){
     body.classList.toggle('open_menu');
 });
 
-
 // DISPLAY NAVBAR ON SCROLL
 window.onscroll = function() {scrollFunction()};
 

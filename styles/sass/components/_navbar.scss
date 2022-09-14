@@ -50,7 +50,6 @@ nav{
     }
 }
 
-
 // TOGGLE DISPLAYS
 .open_menu{
     .toggle_open{ //Supression du bouton "Burger" lors du click
@@ -66,10 +65,6 @@ nav{
     }
 }
 
-
-
-
-
 // MEDIA QUERIES
 
 @media screen and(min-width: 1280px) {
@@ -80,7 +75,7 @@ nav{
     .logo{
         height: 70px;
     }
-    
+
     .menu{
         @include flex-inline;
         position: relative;
