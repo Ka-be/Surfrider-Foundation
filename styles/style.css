@@ -91,7 +91,7 @@ a:active {
   }
 }
 body {
-  background-image: url(/images/content/header.jpg);
+  background-image: url(/images/content/header.webp);
   background-repeat: none;
   background-position: top;
   background-attachment: fixed;
